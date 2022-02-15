@@ -113,6 +113,15 @@
         background: white;
         padding: 20px 0;
     }
+    .child_service img {
+        float: left;
+        margin-top: 5%;
+    }
+    .child_service p {
+        text-align:center;
+        padding: 1%;
+    }
+
     #work_area {
         padding: 0 0;
     }
