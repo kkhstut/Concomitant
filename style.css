@@ -165,6 +165,7 @@ img {
 .menu_area .second_level{
     position: absolute;
     left: -9999px;
+    z-index: -9999;
     top: 22px;
     background: #000;
     width: 170px;
@@ -172,23 +173,23 @@ img {
     /* border-radius: 15px; */
 }
 
-.menu_area > ul > li:nth-child(6):hover .second_level {
-    left: 0;    
+.menu_area > ul > li:nth-child(1):hover .second_level {
+    left: 0;
     z-index: 999;
 }
 
 .menu_area .third_level {
     position: absolute;
+    top: 0;    
     left: -9999px;
-    top: 0;
-    background: #000;
     width: 180px;
+    background: #000;
+    z-index: -9999;    
 }
 .menu_area .second_level li:nth-child(2):hover .third_level {
     left: 170px;
     z-index: 999;
 }
-
 .menu_area ul ul li {
     margin-right: 0;
     /* border: 1px solid #0076b2; */
