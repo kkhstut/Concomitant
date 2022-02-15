@@ -1,0 +1,129 @@
+/* Table Layout */
+@media only screen and (min-width:200px) and (max-width:991px) {
+    #header_area {
+        overflow: hidden;
+    }
+    .container {
+        max-width: 96%;
+    }
+    .logo_area { 
+        width: 30%; 
+    }
+    .right_header_area {
+        width: 69%;
+    }
+    .inner_header {
+        padding: 0 2%;
+    }
+    .slider_inner {
+        width: 96%; padding: 15px 2%;
+    }
+    #mobile_menu .search_area {
+        display: none;
+    }
+    .mean-container .mean-bar {
+        padding: 0;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0px;
+    }
+    .menu_area .second_level {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .menu_area .third_level {
+        position: relative;
+        left: 0px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 22px;
+    }
+    .menu_area {
+        width: 100%;
+    }
+    
+}
+
+/*  Mobile Layout */
+@media only screen and (min-width:200px) and (max-width:480px) {
+    .logo_area {
+        width: 250px;
+        float: none;
+        margin: 0 auto 15px;
+        padding-top: 10px;
+    }
+    .right_header_area {
+        width: 100%;
+    }
+    .social_area {
+        background: #81b300;
+        width: 100%;
+        padding: 10px 10px;
+        border-radius: 15px;
+    }    
+    .top_menu ul {
+        text-align: center;
+    }
+    #service_area {
+        background: white;
+        padding: 20px 0;
+    }
+    #work_area {
+        padding: 0 0;
+    }
+    .child_service, .child_work {
+        width: 100%
+    }
+    .child_work {
+        padding: 1% 0 5% 1%;
+        border-bottom: 1px dotted gray;
+    }
+    .child_work img {
+        margin: 0 auto;
+    }
+    .child_work h3 {
+        text-align: center;
+    }
+    .child_work a {
+        float: none;
+        color: #fff;
+        background: #81b300;
+        padding: 8px 8px;
+        border-radius: 5px;     
+        display: inline-block;   
+    }
+    .child_work:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .inner_work {
+        padding: 15px 0;
+    }
+    .child_footer {
+        width: 100%;
+        float: none;
+        margin: 5% 0;
+    }
+    .child_footer h3 {
+        /* text-align: center; */
+    }
+    .child_footer input {
+        display: block;   
+        width: 100%;
+    }
+    .inner_footer {
+        padding: 5px 0;
+    }
+    .left_copyright {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .right_copyright {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 2%;
+    }
+}
