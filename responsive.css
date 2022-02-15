@@ -44,15 +44,16 @@
         width: 100%;
     }
     .bx-wrapper .bx-controls-direction a {
+        z-index:-9999;
         position: absolute;
-        top: 299px !important;
+        top: 320px !important;
         margin-top: 0;
     }
     .bx-wrapper .bx-prev {
-        left: 39%;
+        left: 41%;
     }
     .bx-wrapper .bx-next {
-        right: 38%;
+        right: 40%;
     }    
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -170,14 +171,15 @@
         margin-top: 2%;
     }
     .bx-wrapper .bx-controls-direction a {
+        z-index:-9999;
         position: absolute;
-        top: 157px !important;
+        top: 320px !important;
         margin-top: 0;
     }
     .bx-wrapper .bx-prev {
-        left: 29%;
+        left: 41%;
     }
     .bx-wrapper .bx-next {
-        right: 27%;
-    }
+        right: 40%;
+    }    
 }
