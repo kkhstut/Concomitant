@@ -173,7 +173,7 @@ img {
     /* border-radius: 15px; */
 }
 
-.menu_area > ul > li:nth-child(1):hover .second_level {
+.menu_area > ul > li:nth-child(3):hover .second_level {
     left: 0;
     z-index: 999;
 }
