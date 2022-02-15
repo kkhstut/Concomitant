@@ -126,4 +126,14 @@
         text-align: center;
         margin-top: 2%;
     }
+    .bx-wrapper .bx-controls-direction a {
+        position: absolute;
+        top: 173px !important;
+    }
+    .bx-wrapper .bx-prev {
+        left: 29%;
+    }
+    .bx-wrapper .bx-next {
+        right: 27%;
+    }
 }
